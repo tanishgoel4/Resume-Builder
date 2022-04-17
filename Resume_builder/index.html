@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <div id="hidden">
+        <h2 class="heading">User Details</h2>
+      
+            <label>Name:</label><br>
+            <input type="text" style="width: 75%;" id="nam"/>
+             <br>
+            <label>Email:</label><br>
+            <input type="text" style="width: 75%;" id="email" />
+            <br>
+            <label>Phone:</label><br>
+            <input type="text" style="width: 75%;"  id="phone"/>
+            <br>
+            <label>Qualifications:</label><br>
+            <div id="container" style="display: none;"></div>
+            <div id="qual">
+                <input type="text" style="width: 75%;" placeholder="Course Name:" id="course"/>
+                <input type="text" style="width: 75%;" placeholder="Stream :" id="stream" />
+                <input type="text" style="width: 75%;" placeholder="Start Year :" id="start" />
+                <input type="text" style="width: 75%;" placeholder="End Year : "  id="end"/><br>
+                <button id="entry" class="entry">Add Entry</button>
+            <br>
+        </div>
+
+        <button  id="submit" class="submit">Submit</button>
+      
+    </div>
+
+
+
+
+    <!-- output -->
+
+    <div style="display: none;" id="output">
+        <h3>Hi, I'm</h3>
+
+           <div id="content">
+               <h1 id="heading1" > </h1>
+               <h1>Qualification(s):</h1>
+               <ul id="qual_ul"></ul>
+               <h1 >Contact:</h1>
+               <p id="con_email"></p>
+               <p id="con_phone"></p>
+           </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

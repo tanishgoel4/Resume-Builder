@@ -1,0 +1,46 @@
+.heading{
+    text-align: center;
+}
+input{
+    margin: 5px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    height: 20px;
+}
+
+label{
+    margin-left: 5px;
+}
+
+button{
+    margin: 5px;
+}
+
+input:hover{
+    box-shadow: 0.5px 0.5px 0.5px 0.5px rgb(0, 204, 255);
+    border: 1px solid rgb(0, 204, 255);
+}
+.entry{
+    height:30px;
+    box-sizing: border-box;
+    background-color: teal;
+    border: none;
+   border-radius: 2px;
+   color:whitesmoke;
+}
+.submit{
+    height:30px;
+    box-sizing: border-box;
+    background-color: green;
+    border: none;
+    border-radius: 2px;
+    color:whitesmoke;
+}
+.div_container{
+    margin: 5px;
+    border:1px solid lightgray;
+    padding: 5px;
+}
+#qual_ul{
+  display: list-item;
+}
